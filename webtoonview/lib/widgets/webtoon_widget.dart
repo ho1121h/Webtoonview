@@ -13,6 +13,7 @@ class Webtoon extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
+      // 동작 감지
       onTap: () {
         Navigator.push(
           context,
