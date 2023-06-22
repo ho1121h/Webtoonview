@@ -30,6 +30,7 @@ class Webtoon extends StatelessWidget {
       child: Column(
         children: [
           Hero(
+            // webtoon_widget <-> detail_screen
             tag: id,
             child: Container(
               // 썹네일 조정
